@@ -1,4 +1,5 @@
 # Neovim config files
 ## Prerequisites
-[ripgrep](https://github.com/BurntSushi/ripgrep).
-[tmux](https://github.com/tmux/tmux/).
+Install [ripgrep](https://github.com/BurntSushi/ripgrep).
+
+Install [tmux](https://github.com/tmux/tmux/).
