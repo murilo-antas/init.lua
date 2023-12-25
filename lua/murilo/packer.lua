@@ -13,8 +13,8 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use({ 
-	  'rose-pine/neovim', 
+  use({
+	  'rose-pine/neovim',
 	  as = 'rose-pine',
 	  config = function()
 		  vim.cmd('colorscheme rose-pine')
@@ -29,6 +29,8 @@ return require('packer').startup(function(use)
 
   use('tpope/vim-fugitive')
 
+  use('tpope/vim-commentary')
+
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v3.x',
@@ -39,6 +41,7 @@ return require('packer').startup(function(use)
 
 		  -- LSP Support
 		  {'neovim/nvim-lspconfig'},
+
 		  -- Autocompletion
 		  {'hrsh7th/nvim-cmp'},
 		  {'hrsh7th/cmp-nvim-lsp'},
